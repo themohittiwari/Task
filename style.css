@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 50px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.472);
+    position: absolute;
+    display: flex;
+    padding: 0px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 12px;
+}
+#back{
+    height: 99%;
+    width: 100%;
+    display: flex;
+    background-image: url(./Image.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.472);
+}
+#content{
+    position: absolute;
+    top: 30%;
+    left:8%;
+    font-family: 'Roboto';
+    color: white;
+}
+#content div{
+    height: 1px;
+    background-color: yellow;
+    width: 100px;
+    margin-bottom: 30px;
+}
+#content h1{
+    font-family: 'Playfair Display';
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+#content p {   
+    width: 400px;
+    /* background-color: tomato; */
+    font-size: 12px;
+    font-weight: 100;
+    opacity: 0.8;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+#menubar{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+#right{
+    height: 100%;
+    width:50%;
+    position: relative;
+}
+#play{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+footer{
+    height: 1%;
+    background-color: yellow;
+}
+#scroll{
+    font-family: "roboto";
+    position: absolute;
+    bottom: 8%;
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50%,0%);
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+}
+nav a:hover{
+    color: yellow;
+    padding-bottom: 5px;
+    border-bottom: 3px solid yellow;
+}
+.line{
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.52);
+    width: 2px;
+    position: absolute;
+    right: 5%;
+    z-index: 99;
+}
+
+#line1{
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.52);
+    width: 2px;
+    position: absolute;
+    z-index: 99;
+    right: 5%;
+    top: 25%;
+}
+#date1{
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    color: white;
+    font-family: 'roboto';
+}
+
+#date2{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    color: rgba(255, 255, 255, 0.692);
+    font-family: 'roboto';
+}
+#date3{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    color: rgba(255, 255, 255, 0.692);
+    font-family: 'roboto';
+}
+#line2{
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.52);
+    width: 2px;
+    position: absolute;
+    z-index: 99;
+    top: 55%;
+    right: 5%;
+}
